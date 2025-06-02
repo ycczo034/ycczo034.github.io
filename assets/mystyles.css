@@ -1,0 +1,100 @@
+p{
+    color: rgb(255, 255, 255);
+}
+
+.conan{
+    color:rgb(243, 244, 246) ;
+}
+
+a.jefflink{
+    padding: 0px 20px;
+    margin: 0px 0px 0px 20px;
+    border-radius: 0px 50px 0px 50px;
+    
+}
+
+a.jefflink:hover{
+    background-color: rgb(135, 195, 146);
+    color: black;
+}
+
+.jeffdiv{
+    background-color: rgb(2, 86, 89) ;
+    border: 2px solid rgb(24, 59, 60);
+    padding: 30px;  
+    border-radius: 10px;
+    width: 60%;
+    padding-bottom: 0px;
+}
+
+@media (max-width:991px) {
+ .jeffdiv {
+    width:90%;
+   margin: 0 auto;
+}
+}
+
+h4.jeffsmall{
+    color: rgb(126, 189, 188);
+    font-size: 20px;
+}
+
+.jeffcrop{
+    overflow: hidden;
+    margin:10px 5px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.jeffcallmebg{
+    background-image: url("../assets/img/bg3.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.jeffserif{
+     font-family: "Noto Serif TC", serif;
+}
+
+.jeffhi{
+    color: rgb(84, 199, 151);
+    font-weight: 900;
+}
+
+.jeff-white{
+    color: rgb(223, 244, 187); 
+}
+
+.jeff-green{
+    color: rgb(159, 103, 24);
+}
+
+.jeff-black{
+    color: black;
+}
+
+.jeffback{
+    background-image: url("../assets/img/background4.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-blend-mode:luminosity;
+    background-color: #0000007b;
+    background-attachment: fixed;
+}
+
+.jeff-blue{
+    color: rgb(4, 87, 114);
+}
+
+.jeffhigh{
+    height: 600px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.chriscallmebg{
+    background-image: url("../assets/img/bgph.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
